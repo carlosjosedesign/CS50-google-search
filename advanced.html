@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced search</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <header>
+            <div class="advanced-logo">
+                <img class="lnXdpd" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" height="24" width="74">
+            </div>
+ 
+                <a href="images.html" id="images">Images</a>
+                <a href="index.html" id="search">Search</a>
+       
+        </header>
+
+        <main class="advanced_search">
+            
+            <div class="appbar"> 
+                <h1>Advanced Search</h1>
+            </div>
+
+            <hr>
+
+            <form action="https://google.com/search">
+                
+                <div class="row">
+                    <div class="left">
+                        <h2>Find pages with...</h2>
+                    </div>
+                    <div class="right">
+                        <strong>To do this in the search box.</strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                       <label for="all">
+                            all these words:
+                       </label>
+                       <input  value="" autofocus="autofocus" id="all" name="as_q" type="text">
+                    </div>
+                    <div class="right">
+                        Type the important words: <span>tri-colour rat terrier</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                       <label for="exact">
+                        this exact word or phrase:
+                       </label>
+                       <input  value="" id="exact" name="as_epq" type="text">
+                    </div>
+                    <div class="right">
+                        Put exact words in quotes: <span>"rat terrier"</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                       <label for="any">
+                            any of these words:
+                       </label>
+                       <input value="" id="any" name="as_oq" type="text">
+                    </div>
+                    <div class="right">
+                        Type OR between all the words you want:  <span>miniature OR standard</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                       <label for="none">
+                            none of these words:
+                       </label>
+                       <input value="" id="none" name="as_eq" type="text">
+                    </div>
+                    <div class="right">
+                        Put a minus sign just before words that you don't want:<span>-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                       <label for="from">
+                            numbers ranging from:
+                       </label>
+                       <div class="row from-to">
+                            <input  id="from" name="as_nlo" type="text">
+                            <span class="to-divider">to</span>
+                            <input id="to" name="as_nhi" type="text">
+                       </div>
+                    
+                    </div>
+                    <div class="right">
+                        Put two full stops between the numbers and add a unit of measurement: <span>10..35 kg, £300..£500, 2010..2011r</span>
+                    </div>
+                </div>
+               
+
+                <div class="row">
+                    <div class="left">
+                        <div class="buttons">
+                            <input type="submit" value="Advanced Search" >
+                        </div>
+                    </div>
+                </div>
+
+          
+            </form>
+            
+        </main>
+       
+        <footer>
+            <ul>
+                <li id="about">About</li>
+                <li id="advertising">Advertising</li>
+                <li id="business">Business</li>
+                <li id="how">How Search works</li>
+            </ul>
+            <ul>
+                <li id="privacy">Privacy</li>
+                <li id="terms">Terms</li>
+                <li id="settings">Settings</li>
+            </ul>
+        </footer>
+    </body>
+
+
+    <script defer src="script.js"></script>
+</html>
